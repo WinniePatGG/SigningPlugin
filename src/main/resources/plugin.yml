@@ -1,0 +1,17 @@
+name: SigningPlugin
+version: '1.0'
+main: de.winniepat.signingPlugin.SigningPlugin
+api-version: '1.21'
+load: STARTUP
+authors: [ WinniePatGG ]
+description: Lobby Plugin
+website: https://www.winniepat.de
+commands:
+  sign:
+    description: Sign an Item
+    usage: /sign <message>
+    permission: signplugin.sign
+permissions:
+  signplugin.sign:
+    description: Allows signing
+    default: op
